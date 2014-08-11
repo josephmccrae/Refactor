@@ -1,0 +1,116 @@
+/*
+* {
+    border: 1px solid red;
+}
+*/
+
+
+body {
+    background-color: #c8edff;
+}
+
+
+
+#container {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.control {
+    background-color: #ffe79c;
+    display: inline-block;
+    float: left;
+    height: 125px;
+    margin-bottom: 50px;
+    margin-left: -50px;
+    margin-top: -12px;
+    overflow: hidden;
+    width: 110%;
+}
+
+
+.instruct {
+    color: white;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 2em;
+    font-weight: 100;
+    margin-left: 50px;
+    text-shadow: 2px 2px 7px #000;
+}
+
+
+.tryAgain {
+    color: #b29019;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 1em;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+
+input {
+    margin-left: 50px;
+}
+
+
+
+#main {
+    clear: left;
+    display: block;
+    float: left;
+    min-width: 1000px;
+    width: 100%;
+}
+
+
+
+#fizzBuzz, .buzz, .fizz, .numbers {
+    background-image: url(button1.png);
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    height: 50px;
+    margin-right: 40px;
+    margin-bottom: 50px;
+    position: relative;
+    text-align: center;
+    width: 100px;
+}
+
+
+#buzz p {
+    color: #c8edff;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: .95em;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px #111;
+}
+
+
+#fizz p {
+    color: #e1ff9c;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: .95em;
+    font-weight: 100;
+    text-shadow: 2px 2px 5px #111;
+}
+
+
+#fizzBuzz p {
+    color: #ffe79c;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: .95;
+    font-weight: 100;
+    text-shadow: 2px 2px 7px #000;
+}
+
+
+#reg p {
+    color: white;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: .95em;
+    text-shadow: 2px 2px 7px #000;
+}
